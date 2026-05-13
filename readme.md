@@ -24,4 +24,4 @@ around College Park using maps and charts.
 
 ## Developer Manual
 
-See docs/DeveloperManual.md
+See docs/DeveloperManual.md# saferoute-college-park

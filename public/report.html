@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Safety Report</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">SafeRoute College Park</div>
+  <div>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/map">Crime Map</a>
+    <a href="/report">Report</a>
+  </div>
+</nav>
+
+<section class="card">
+  <h1>Submit a Safety Report</h1>
+  <p>
+    Use this form to submit a general safety concern.
+    This writes data to Supabase through the Express backend.
+  </p>
+
+  <form id="reportForm">
+    <label for="location">Location</label>
+    <input id="location" type="text" placeholder="Example: Near McKeldin Library">
+
+    <label for="description">Description</label>
+    <textarea id="description" placeholder="Describe the safety concern"></textarea>
+
+    <button type="submit">Submit Report</button>
+  </form>
+
+  <p id="reportMessage"></p>
+</section>
+
+<section class="card">
+  <h2>Submitted Reports</h2>
+  <div id="reportsList"></div>
+</section>
+
+<script src="/app.js"></script>
+</body>
+</html>
