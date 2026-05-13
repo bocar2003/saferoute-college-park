@@ -14,4 +14,4 @@ Clone the repository:
 
 ```bash
 git clone git@github.com:bocar2003/saferoute-college-park.git
-cd inst377 project
+cd "inst377 project"
